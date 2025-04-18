@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+  <div class="main">
+    <div class="box">
+        <div class="overlay"></div>
+    </div>
+  </div>
+
+  <!--Filter-->
+  <svg width="0" height="0">
+    <filter id="noise" x="0" y="0" width="100%" height="100%">
+      <feTurbulence baseFrequency="0.65" numOctaves="3" type='fractalNoise' stitchTiles='stitch'/>
+    </filter>
+  </svg>
+
+
+</body>
+</html>
