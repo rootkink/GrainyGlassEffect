@@ -11,7 +11,7 @@ tweaks css like
 box background alpha value matters lower for black backgrounds
 also if border look werid then change it color if white then may #fff if black playaround to find whatever suits
 
-```
+```css
 .overlay{
     filter: url(#noise) contrast(10%) brightness(120%) opacity(0.16); //opacity
 }
@@ -21,7 +21,7 @@ playaround with opacity low it for darker blacker backgrounds
 ![image](https://github.com/user-attachments/assets/4a5522ce-7ee2-4d0d-b676-f98cca79f9d7)
 
 here css of this
-```
+```css
 .box{
   padding:2rem;
   height:400px;
