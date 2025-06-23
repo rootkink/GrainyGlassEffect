@@ -8,6 +8,9 @@
   height:100vh;
   background:url("https://images.pexels.com/photos/33041/antelope-canyon-lower-canyon-arizona.jpg?cs=tinysrgb&w=1260&h=750&dpr=1") ;
     display:flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   justify-content:center;
   align-items:center;
   font-family:sans-serif;
